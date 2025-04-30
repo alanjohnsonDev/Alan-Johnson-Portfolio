@@ -41,7 +41,7 @@
 
             <div class="mySlides fade">
                 <div class="numbertext">1 / 3</div>
-                <a href="project1.html"><img src="image1.jpg" alt="Image 1"></a>
+                <a href="project1.html"><img class="slide1-image" src="UXUI For Gaming Hero Image.png" alt="Image 1"></a>
                 <div class="text"><a href="project1.html">PRESS START</a></div>
             </div>
 
@@ -70,32 +70,40 @@
 
        <!-- ABOUT SECTION -->
 
-       <section id="about">
+       <section id="about" class="about">
         <div class="about-container">
             <div class="about-title">
                 <h2>How's it going? I'm Alan!</h2>
             </div>
-            <div class="about-picture-container">
-                <img src="Professional Picture.jpg" alt="Professional Picture">
-            </div>
-            <div class="about-content">
-                <p>Currently, I am a Software Developer based in Maryland and currently 
-                    working for a Software Government Contractor.</p>
-                <p>My passion for gaming and UX/UI Design came from beautiful HUDs and 
-                    UI Menus in games such as Destiny, Dead Space, Marvel Rivals, and 
-                    Metroid Prime to name a few.</p>
-                <p>My 4 years of experience in Web Design and Software Development has 
-                    been good, but I am learning that I want to be apart of something 
-                    more fun and exciting.  So, I am shifting into a gaming UX/UI Design based career.</p>
-            </div>
-            <div class="about-second-block">
-                <h2>I'm Currently...</h2>
-                <p><strong>Playing: </strong>Metroid Fusion (for the 10th time), Super Mario Wonder, Hogwarts Legacy</p>
-            </div>
-            <div class="about-third-block">
-                <h2>Contact</h2>
-                <p>Email: alanjohnson.dev@gmail.com</p>
-                <a href="www.linkedin.com/in/alan-johnson-aa74b915b"><i class="fa-brands fa-linkedin"></i></a>
+            <div class="about-flex-container">
+                <div class="about-picture-container">
+                    <img class="about-picture" src="Professional Picture.jpg" alt="Professional Picture">
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-first-block">
+                        <p>Currently, I am a Software Developer based in Maryland and currently 
+                            working for a Software Government Contractor.</p>
+                        <p>My passion for gaming and UX/UI Design came from beautiful HUDs and 
+                            UI Menus in games such as Destiny, Dead Space, Marvel Rivals, and 
+                            Metroid Prime to name a few.</p>
+                        <p>My 4 years of experience in Web Design and Software Development have
+                            been good, but I am learning that I want to be apart of something 
+                            more fun and exciting.  So, I am shifting into the gaming industry to become a  UX/UI Designer.</p>
+                    </div>
+                
+                    <br><br>
+                    <div class="about-second-block">
+                        <h2>I'm Currently...</h2>
+                        <p><strong>Playing: </strong>Pokemon Violet, Hollow Knight, and Metroid Dread</p>
+                    </div>
+                    <br><br>
+                    <div class="about-third-block">
+                        <h2>Contact</h2>
+                        <p>Email: alanjohnson.dev@gmail.com</p>
+                        <a class="btn-linkedin" href="https://www.linkedin.com/in/alan-johnson-aa74b915b">LinkedIn</a>
+                    </div>
+                </div>
             </div>
         </div>
        </section>
@@ -120,7 +128,7 @@
                 }
                 slides[slideIndex-1].style.display = "block";
                 dots[slideIndex-1].className += " active";
-                setTimeout(showSlides, 2800); // Change image every 2 seconds
+                // setTimeout(showSlides, 2800); // Change image every 2 seconds
             }
         </script>
         

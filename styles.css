@@ -16,38 +16,49 @@ html {
 
 
 
+
+
+
+
 /* NAVBAR SECTION */
 
 .navbar {
     width: 100%;
-    background-color: black;
+    background-color: rgb(235, 235, 235);
     height: 55px;
     display: flex;
     flex: row;
     justify-content: space-around;
+    gap: 220px;
 }
 
 .logo-container {
     margin-top: 12px;
+    width: 300px;
 }
 
 .logo-container a {
-    color: white;
+    color: rgb(73, 73, 73);
     font-family: 'Montserrat', sans-serif;
     font-size: 26px;
-    font-weight: 500;
+    font-weight: 700;
     text-decoration: none;
+    padding-left: 32px;
 }
 
 .logo-container a:hover {
-    color: #fea408;
+    color: rgb(99, 121, 189);
+}
+
+.navbar-list {
+    width: 370px;
 }
 
 .navbar-list ul {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: rgb(235, 235, 235);
 }
 
 .navbar-list li {
@@ -56,18 +67,22 @@ html {
 
 .navbar-list li a {
     display: block;
-    color: white;
-    font-weight: 500;
+    color: rgb(73, 73, 73);
+    font-weight: 600;
     text-align: center;
-    padding: 16px 25px 16px 25px;
-    font-size: 18px;
+    padding: 16px 25px 12px 25px;
+    font-size: 20px;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
 }
 
 .navbar-list li a:hover {
-    color: #fea408;
+    color: rgb(99, 121, 189);
 }
+
+
+
+
 
 
 
@@ -84,7 +99,7 @@ html {
 
 .mySlides {
     display: none;
-    box-shadow: 8px 8px 12px #898a86;
+    box-shadow: 10px 10px 10px #6c6c6c;
 }
 
 .mySlides img {
@@ -92,7 +107,7 @@ html {
     width: 100%;
     border-radius: 10px;
     -webkit-filter: blur(4px);
-    filter: blur(2px);
+    filter: blur(1.25px);
 }
 
 .slideshow-container {
@@ -102,17 +117,18 @@ html {
 }
 
 .text a {
-    color: #fea408;
-    font-size: 28px;
+    color: rgb(99, 121, 189);
+    font-size: 32px;
     padding: 8px 12px;
     position: absolute;
-    left: 42%;
+    left: 41%;
     top: 48%;
     text-decoration: none;
     font-family: 'Quantico', sans-serif;
     font-weight: 600;
     border: 1px solid transparent;
-    background-color: #1a1a1a;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
 }
 
 .numbertext {
@@ -147,9 +163,294 @@ html {
     to {opacity: 1}
 }
 
-@media only screen and (max-width: 300px) {
-    .text {
-        font-size: 11px;
-    }
+
+
+
+
+
+
+
+
+/* ABOUT SECTION */
+
+
+.about {
+    background-image: linear-gradient(rgba(158, 187, 255, 0.701), rgba(255, 255, 255));
 }
 
+.about-container {
+    max-width: 1350px;
+    margin: auto;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 60px;
+}
+
+.about-title h2 {
+    font-size: 45px;
+    padding-bottom: 50px;
+}
+
+.about-flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+}
+
+.about-picture {
+    width: 300px;
+    height: 450px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px rgb(64, 80, 126);
+}
+
+.about-container p {
+    font-size: 20px;
+    padding-bottom: 30px;
+    line-height: 1.75;
+    font-weight: 500;
+}
+
+.about-content h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.btn-linkedin {
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: rgb(99, 121, 189);
+    color: white;
+    box-shadow: 2px 2px 10px rgb(64, 80, 126);
+}
+
+
+
+
+
+
+
+
+
+/* WORK SECTION */
+
+/* Project 1 */
+
+
+.project1-section1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 1350px;
+    margin: auto;
+}
+
+.work-container {
+    background-color: white;
+}
+
+.project1-hero-title {
+    padding-top: 70px;
+}
+
+.project1-hero-title img {
+    width: 1350px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #6c6c6c;
+}
+
+.project1-description {
+    margin-top: 60px;
+}
+
+.project1-description h2 {
+    font-size: 30px;
+    color:rgb(40, 40, 40);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.project1-description p {
+    font-size: 22px;
+}
+
+.roles-list li {
+    font-size: 22px;
+    margin-left: 25px;
+    line-height: 1.5;
+}
+
+.challenges-list li {
+    font-size: 22px;
+    margin-left: 25px;
+    line-height: 1.5;
+}
+
+.project1-section2 {
+    background-image: linear-gradient(rgb(212, 212, 212),rgb(59, 59, 59));
+    padding-bottom: 75px;
+}
+
+.work-progress-container1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 1350px;
+    margin: auto;
+}
+
+.work-title h2 {
+    font-size: 30px;
+    color:rgb(29, 29, 29);
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.work-title img {
+    width: 1350px;
+    height: auto;
+}
+
+.work-progress-container1 h3 {
+    font-size: 30px;
+    color: rgb(28, 28, 28);
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.player-journey {
+    display: block;
+}
+
+.player-journey img {
+    width: 1350px;
+    height: auto;
+    display: block;
+    justify-content: center;
+}
+
+.prototype-flow-chart {
+    display: flex;
+    flex-direction: column;
+}
+
+.prototype-img {
+    width: 650px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.flow-img {
+    width: 1350px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+
+
+
+.project1-section3 {
+    background-image: linear-gradient(rgb(59, 59, 59),rgb(13, 13, 13));
+    padding-bottom: 75px;
+}
+
+.work-progress-container2 {
+    font-family: 'Montserrat', sans-serif;
+    width: 1350px;
+    margin: auto;
+}
+
+
+
+.painpoint h4 {
+    font-size: 26px;
+    color: rgb(243, 243, 243);
+    padding: 50px 0px 25px 0px;
+    margin-left: 10px;
+}
+
+.painpoint img {
+    width: 1350px;
+    height: auto;
+}
+
+.equipment-section img {
+    width: 1350px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+
+
+
+.project1-section4 {
+    background-image: linear-gradient(rgb(13, 13, 13), rgb(174, 174, 174));
+    padding-bottom: 75px;
+}
+
+.work-progress-container3 {
+    font-family: 'Montserrat', sans-serif;
+    width: 1350px;
+    margin: auto;
+}
+
+.gameplay-section h4 {
+    font-size: 26px;
+    color: rgb(243, 243, 243);
+    padding: 50px 0px 25px 0px;
+    margin-left: 10px;
+}
+
+.gameplay-section img {
+    width: 1350px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.outcomes-section {
+    background-color: #eeeeee;
+}
+
+.outcomes-postMortem {
+    font-family: 'Montserrat', sans-serif;
+    width: 1350px;
+    margin: auto;
+}
+
+.outcomes-postMortem h3 {
+    font-size: 30px;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.outcomes-postMortem li {
+    font-size: 22px;
+    margin-left: 25px;
+    line-height: 1.5;
+}
+
+.UI-practice {
+    padding-bottom: 40px;
+}
+
+.back {
+    margin: 50px 0px 50px 0px;
+    padding-bottom: 100px;
+}
+
+.back a {
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
