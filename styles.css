@@ -354,7 +354,7 @@ html {
 
 
 .project1-section3 {
-    background-image: linear-gradient(rgb(59, 59, 59),rgb(13, 13, 13));
+    background-image: linear-gradient(rgb(59, 59, 59),rgb(29, 29, 29));
     padding-bottom: 75px;
 }
 
@@ -362,6 +362,12 @@ html {
     font-family: 'Montserrat', sans-serif;
     width: 1350px;
     margin: auto;
+}
+
+.project1-section3 p {
+    margin: -20px 0px 30px 12px;
+    font-size: 16px;
+    color: white;
 }
 
 
@@ -388,8 +394,8 @@ html {
 
 
 .project1-section4 {
-    background-image: linear-gradient(rgb(13, 13, 13), rgb(174, 174, 174));
-    padding-bottom: 75px;
+    background-image: linear-gradient(rgb(29, 29, 29), rgb(174, 174, 174));
+    padding-bottom: 40px;
 }
 
 .work-progress-container3 {
@@ -401,7 +407,7 @@ html {
 .gameplay-section h4 {
     font-size: 26px;
     color: rgb(243, 243, 243);
-    padding: 50px 0px 25px 0px;
+    padding: 30px 0px 25px 0px;
     margin-left: 10px;
 }
 
@@ -409,6 +415,12 @@ html {
     width: 1350px;
     height: auto;
     padding-bottom: 20px;
+}
+
+.project1-section4 p {
+    margin: -20px 0px 30px 12px;
+    font-size: 16px;
+    color: black;
 }
 
 .outcomes-section {
