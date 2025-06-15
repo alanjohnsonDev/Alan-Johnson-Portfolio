@@ -30,6 +30,7 @@ html {
     flex: row;
     justify-content: space-around;
     align-items: center;
+    gap: 120px;
 }
 
 .active {
@@ -38,7 +39,7 @@ html {
 }
 
 .logo-container {
-    margin-left: 40px;
+    margin-left: 100px;
 }
 
 .logo-container img {
@@ -46,7 +47,7 @@ html {
 }
 
 .navbar-list {
-    width: 580px;
+    width: 650px;
 }
 
 .navbar-list ul {
