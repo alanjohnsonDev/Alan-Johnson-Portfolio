@@ -24,18 +24,18 @@ html {
 
 .navbar {
     width: 100%;
-    background-color: rgba(81, 177, 251, 0.51);
+    background-color: black;
     height: 62px;
     display: flex;
     flex: row;
     justify-content: space-around;
     align-items: center;
-    gap: 120px;
+    gap: 140px;
 }
 
 .active {
-    color: rgb(255, 255, 255);
-    background-color: rgba(158, 187, 255, 0.700);
+    color: white;
+    background-color: white;
 }
 
 .logo-container {
@@ -43,7 +43,7 @@ html {
 }
 
 .logo-container img {
-    padding-top: 2px;
+    padding-top: 1px;
 }
 
 .navbar-list {
@@ -63,7 +63,7 @@ html {
 
 .navbar-list li a {
     display: block;
-    color: rgb(73, 73, 73);
+    color: rgb(98, 187, 255);
     font-weight: 600;
     text-align: center;
     padding: 20px 25px 18px 25px;
@@ -73,8 +73,48 @@ html {
 }
 
 .navbar-list li a:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(197, 229, 253);
+    color: black;
+    background-color: rgb(98, 187, 255);
+}
+
+
+
+/* HERO HOME PAGE SECTION */
+
+.hero-home-page-container {
+    background-color: rgb(98, 187, 255);
+}
+
+.hero-home-page-title {
+    height: 250px;
+    padding-top: 30px;
+    max-width: 1350px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-home-page-title h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: rgb(246, 246, 246);
+}
+
+.hero-home-page-title p {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgb(233, 233, 233);
+}
+
+.hero-home-page-title a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(34, 61, 131);
+    background-color: rgb(233, 233, 233);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 8px rgb(194, 194, 194);
 }
 
 
@@ -99,7 +139,7 @@ html {
     font-size: 40px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .work-container a {
@@ -139,7 +179,7 @@ html {
 
 .navbar-about {
     width: 100%;
-    background-color: rgba(237, 237, 237, 0.393);
+    background-color: black;
     height: 62px;
     display: flex;
     flex: row;
@@ -653,8 +693,8 @@ html {
 
 .project4-section1 {
     font-family: 'Montserrat', sans-serif;
-    width: 1350px;
-    margin: auto;
+    width: 1250px;
+    margin: 0 auto;
     background-color: white;
     margin-bottom: 50px;
 }
@@ -664,8 +704,8 @@ html {
 }
 
 .project4-hero img {
-    width: 1350px;
-    height: 750px;
+    width: 1250px;
+    height: auto;
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 10px 10px 10px #6c6c6c;
