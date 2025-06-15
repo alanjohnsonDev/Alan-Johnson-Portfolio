@@ -6,6 +6,7 @@
         <title>Alan Johnson Portfolio</title>
         <meta name="description" content="Alan Johnson Portfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="Submark.png">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="responsive.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,18 +15,20 @@
         <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     </head>
     <body>
+
+
         <!-- NAVBAR SECTION -->
 
         <section>
             <div class="nav-container">
                 <div class="navbar">
                     <div class="logo-container">
-                        <a href="index.html">Alan Johnson</a>
+                        <a href="index.html"><img src="Main Logo.png" alt="main logo image"></a>
                     </div>
                     <div class="navbar-list">
                         <ul>
                             <li><a href="#work">Work</a></li>
-                            <li><a href="#about">About</a></li>
+                            <li><a href="about.html">About</a></li>
                             <li><a href="#resume">Resume</a></li>
                         </ul>
                     </div>
@@ -34,103 +37,31 @@
         </section>
 
 
-        <!-- CAROUSEL SECTION -->
+        <!-- WORK SECTION -->
 
-       <section id="work" class="slideshow">
-        <div class="slideshow-container">
-
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <a href="project1.html"><img class="slide1-image" src="UXUI For Gaming Hero Image.png" alt="Image 1"></a>
-                <div class="text"><a href="project1.html">PRESS START</a></div>
+        <section id="work">
+            <div class="work-title">
+                <h2>My Work</h2>
             </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <a href="project2.html"><img src="image2.jpg" alt="Image 2"></a>
-                <div class="text"><a href="project2.html">PRESS START</a></div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <a href="project3.html"><img src="image3.jpg" alt="Image 3"></a>
-                <div class="text"><a href="project3.html">PRESS START</a></div>
-            </div>
-
-        </div>
-
-        <div style="text-align:center">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
-       </section>
-
-
-
-       <!-- ABOUT SECTION -->
-
-       <section id="about" class="about">
-        <div class="about-container">
-            <div class="about-title">
-                <h2>How's it going? I'm Alan!</h2>
-            </div>
-            <div class="about-flex-container">
-                <div class="about-picture-container">
-                    <img class="about-picture" src="Professional Picture.jpg" alt="Professional Picture">
+            <div class="work-container">
+                <div class="project1">
+                    <a href="BLACK_OPS_6_Project.html"><img class="zoom" src="Call of Duty - Black Ops 6 - Redesign (Hero Image).png" alt="Project 1 Image"></a>
+                    <h3>CALL OF DUTY - Black Ops 6 - REDESIGN</h3>
                 </div>
-                
-                <div class="about-content">
-                    <div class="about-first-block">
-                        <p>Currently, I am a Software Developer based in Maryland and currently 
-                            working for a Software Government Contractor.</p>
-                        <p>My passion for gaming and UX/UI Design came from beautiful HUDs and 
-                            UI Menus in games such as Destiny, Dead Space, Marvel Rivals, and 
-                            Metroid Prime to name a few.</p>
-                        <p>My 4 years of experience in Web Design and Software Development have
-                            been good, but I am learning that I want to be apart of something 
-                            more fun and exciting.  So, I am shifting into the gaming industry to become a  UX/UI Designer.</p>
-                    </div>
-                
-                    <br><br>
-                    <div class="about-second-block">
-                        <h2>I'm Currently...</h2>
-                        <p><strong>Playing: </strong>Pokemon Violet, Hollow Knight, and Metroid Dread</p>
-                    </div>
-                    <br><br>
-                    <div class="about-third-block">
-                        <h2>Contact</h2>
-                        <p>Email: alanjohnson.dev@gmail.com</p>
-                        <a class="btn-linkedin" href="https://www.linkedin.com/in/alan-johnson-aa74b915b">LinkedIn</a>
-                    </div>
+                <div class="project2">
+                    <a href="ELVTR_Project.html"><img class="zoom" src="UXUI For Gaming Hero Image.png" alt="Project 2 Image"></a>
+                    <h3>ELVTR UX/UI For Gaming Coursework</h3>
+                </div>
+                <div class="project3">
+                    <a href="PIRATE_DASH_Project.html"><img class="zoom" src="PIRATE DASH Hero Banner.png" alt="Project 3 Image"></a>
+                    <h3>PIRATE DASH - UX/UI Mobile Design</h3>
+                </div>
+                <div class="project4">
+                    <a href="https://alanjohnsondev.github.io/nine30-company/" target="_blank"><img class="zoom" src="Nine30-Project.png" alt="Project 4 Image"></a>
+                    <h3>Nine 30 Consulting - Web Development</h3>
                 </div>
             </div>
-        </div>
-       </section>
-
-
-
-        <script>
-            let slideIndex = 0;
-            showSlides();
-
-            function showSlides() {
-                let i;
-                let slides = document.getElementsByClassName("mySlides");
-                let dots = document.getElementsByClassName("dot");
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                slideIndex++;
-                if(slideIndex > slides.length) {slideIndex = 1}
-                for(i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                slides[slideIndex-1].style.display = "block";
-                dots[slideIndex-1].className += " active";
-                // setTimeout(showSlides, 2800); // Change image every 2 seconds
-            }
-        </script>
+        </section>
         
     </body>
 </html>
