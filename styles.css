@@ -123,6 +123,10 @@ html {
 
 /* WORK SECTION */
 
+.home-page-work-container {
+    background-color: rgba(188, 188, 188, 0.423);
+}
+
 .work-container {
     max-width: 1350px;
     margin: auto;
@@ -140,7 +144,7 @@ html {
     font-size: 40px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .work-container a {
@@ -293,7 +297,7 @@ html {
 
 /* WORK SECTION */
 
-/* Project 1 */
+/* PROJECT 1 - ELDEN RING */
 
 
 .project1-section1 {
@@ -526,7 +530,11 @@ html {
 
 
 
-/* PROJECT 2 */
+
+
+
+
+/* PROJECT 2 - PIRATE DASH */
 
 .project2-section1 {
     font-family: 'Montserrat', sans-serif;
@@ -690,7 +698,104 @@ html {
 
 
 
-/* PROJECT 4 */
+
+
+
+
+
+
+/* PROJECT 3 - NINE 30 */
+
+.project3-section1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 1350px;
+    margin: auto;
+}
+
+.project3-work-container {
+    background-color: white;
+}
+
+.project3-hero-title {
+    padding-top: 70px;
+}
+
+.project3-hero {
+    width: 1250px;
+}
+
+.project3-hero-title img {
+    width: 1250px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #6c6c6c;
+}
+
+.project3-description {
+    margin-top: 60px;
+}
+
+.project3-description h2 {
+    font-size: 30px;
+    color:rgb(40, 40, 40);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.project3-description p {
+    font-size: 22px;
+}
+
+.roles-list li {
+    font-size: 22px;
+    margin-left: 25px;
+    line-height: 1.5;
+}
+
+.challenges-list li {
+    font-size: 22px;
+    margin-left: 25px;
+    line-height: 1.5;
+}
+
+
+.project3-link-container {
+    font-family: 'Montserrat', sans-serif;
+    width: 1350px;
+    margin: auto;
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+
+.project3-link-container h3 {
+    font-size: 26px;
+    color:rgb(40, 40, 40);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.project3-link-container a {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: rgb(20, 98, 22);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* PROJECT 4 - BLACK OPS 6 */
 
 .project4-section1 {
     font-family: 'Montserrat', sans-serif;
@@ -818,4 +923,129 @@ html {
     font-size: 16px;
     color: black;
     margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* PROJECT 5 - YOSHI'S ISLAND */
+
+.project5-section1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 1350px;
+    margin: auto;
+    background-color: white;
+}
+
+.project5-hero-title {
+    margin-top: 75px;
+}
+
+.project5-hero img {
+    width: 1350px;
+    height: 750px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #6c6c6c;
+}
+
+.project5-description {
+    margin-top: 60px;
+}
+
+.project5-description h2 {
+    font-size: 30px;
+    color:rgb(40, 40, 40);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.project5-description p {
+    font-size: 22px;
+}
+
+
+.project5-section2 {
+    background-image: linear-gradient(rgba(255, 200, 1, 0.498), rgba(208, 141, 83, 0.623));
+}
+
+.project5-workprocess {
+    font-family: 'Montserrat', sans-serif;
+    width: 1350px;
+    margin: auto;
+    margin-top: 75px;
+}
+
+.project5-workprocess-title h2 {
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.project5-workprocess p {
+    margin-bottom: 60px;
+    padding-top: 20px;
+}
+
+.project5-main-screen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 165px;
+}
+
+.project5-main-screen-title h3 {
+    margin-top: 50px;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.main-screen-wf img {
+    width: 440px;
+    height: 956px;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px #6c6c6c;
+}
+
+.main-screen-mockup img {
+    width: 440px;
+    height: 956px;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px #6c6c6c;
+}
+
+
+
+.project5-final-mockup-title h3 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+
+.project5-final-mockup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.project5-final-mockup img {
+    width: 440px;
+    height: 956px;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px #6c6c6c;
+}
+
+.project5-outcomes-postMortem {
+    font-family: 'Montserrat', sans-serif;
+    width: 1350px;
+    margin: auto;
+    margin-top: 75px;
 }
