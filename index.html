@@ -8,11 +8,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="Submark.png">
         <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="responsiveLaptop.css">
+        <link rel="stylesheet" href="responsiveTablet.css">
+        <link rel="stylesheet" href="responsiveMobile.css">
+        <link rel="stylesheet" href="responsiveSmallMobile.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d43cbc8bc9.js" crossorigin="anonymous"></script>
     </head>
     <body>
 
@@ -35,6 +39,31 @@
                     </div>
                 </div>
             </div>
+
+
+            <!-- MOBILE MENU -->
+             
+            <div class="mobile-container">
+                <div class="topnav">
+                    <a href="index.html" id="home-icon" class="active">
+                        <img src="Main Logo.png" alt="main logo image">
+                    </a>
+                    <div id="myLinks">
+                        <a href="#work">Work</a>
+                        <a href="about.html">About</a>
+                        <a href="Johnson_Alan_UX_UI_Resume.pdf" target="_blank">Resume</a>
+                        <a href="UXG_ Recommendation Letter - Alan Johnson.png" target="_blank">Reference Letter</a>
+                    </div>
+
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <div class="container" onclick="myBars(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </section>
 
 
@@ -44,7 +73,7 @@
             <div class="hero-home-page-container">
                 <div class="hero-home-page-title">
                     <h2>Hi! I'm Alan!</h2>
-                    <p>I'm an aspiring UX/UI Designer.  I'm a gamer, nerd, and gym addict.</p>
+                    <p>I'm a UX/UI Designer at Spark of Genius Studios. I'm a gamer, nerd, and gym addict.</p>
                     <p>Please take a look around and reach out below if you want to talk!</p><br>
                     <a href="about.html">Contact Me</a>
                 </div>
@@ -65,7 +94,7 @@
                 </div>
                 <div class="project2">
                     <a href="Yoshi's_Island_Project.html"><img class="zoom" src="CANDY CRUSH Yoshi's Island Edition.png" alt="Project 2 Image"></a>
-                    <h3>CANDY CRUSH - Yoshi's Island Edition - UX/UI Mobile Design</h3>
+                    <h3>CANDY CRUSH - Yoshi's Island Edition</h3>
                 </div>
                 <div class="project3">
                     <a href="PIRATE_DASH_Project.html"><img class="zoom" src="PIRATE DASH Hero Banner.png" alt="Project 3 Image"></a>
@@ -73,7 +102,7 @@
                 </div>
                 <div class="project4">
                     <a href="ELVTR_Project.html"><img class="zoom" src="UXUI For Gaming Hero Image.png" alt="Project 4 Image"></a>
-                    <h3>ELVTR UX/UI For Gaming Coursework - ELDEN RING</h3>
+                    <h3>ELVTR UX/UI For Gaming Coursework</h3>
                 </div>
                 <div class="project5">
                     <a href="NINE30_Project.html"><img class="zoom" src="Nine30-Project.png" alt="Project 5 Image"></a>
@@ -82,5 +111,24 @@
             </div>
         </section>
         
+
+        <script>
+
+            // Hamburger Icon Animation //
+            function myBars(x) {
+                x.classList.toggle("change");
+            }
+
+
+            // Mobile Menu //
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
     </body>
 </html>

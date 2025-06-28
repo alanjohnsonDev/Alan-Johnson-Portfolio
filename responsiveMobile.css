@@ -1,0 +1,844 @@
+@media only screen and (min-width: 480px) and (max-width: 765px) {
+    /* NAVBAR */
+    
+
+    .nav-container {
+        display: none;
+    }
+
+    .mobile-container {
+        display: block;
+    }
+
+    /* NEEDS WORK - HAMBURGER MENU */
+
+
+    /* Hamburger Animated ICON */
+
+    .container {
+        display: inline-block;
+        cursor: pointer;
+        margin-right: 57px;
+        margin-top: 10px;
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: rgb(98, 187, 255);
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .change .bar1 {
+        transform: translate(0, 11px) rotate(-45deg);
+    }
+
+    .change .bar2 {
+        opacity: 0;
+    }
+
+    .change .bar3 {
+        transform: translate(0, -11px) rotate(45deg);
+    }
+
+
+    /* MOBILE NAVBAR */
+
+    .mobile-container {
+        max-width: 100%;
+        margin: auto;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+
+    .topnav #myLinks {
+        display: none;
+    }
+
+    #home-icon {
+        padding-left: 78px;
+    }
+
+    .topnav a {
+        color: white;
+        padding: 14px 16px 14px 78px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav a:hover {
+        color: white;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .active {
+        background-color: black;
+        color: white;
+    }
+
+
+    
+
+    /* HERO HOME PAGE */
+
+    .hero-home-page-title {
+        height: 340px;
+        padding-top: 30px;
+        max-width: 400px;
+        margin: auto;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    /* MY WORK */
+
+    .work-container {
+        max-width: 400px;
+        margin: auto;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 60px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        padding-bottom: 100px;
+    }
+
+    .work-container img {
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 2px 3px 10px rgb(10, 53, 86);
+    }
+
+
+    /* ABOUT Page */
+
+
+    /* NEED WORK - HAMBURGER MENU */
+    .navbar-about {
+        width: 100%;
+        background-color: black;
+        height: 62px;
+        display: flex;
+        flex: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .about-container {
+        max-width: 400px;
+        margin: auto;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 30px;
+    }
+
+    .about-title h2 {
+        font-size: 22px;
+        padding-bottom: 35px;
+    }
+
+    .about-flex-container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+
+    .about-picture {
+        width: 300px;
+        height: 450px;
+        margin: 0 auto;
+        border-radius: 12px;
+        box-shadow: 2px 2px 10px rgb(64, 80, 126);
+        display: none;
+    }
+
+    .about-container p {
+        font-size: 16px;
+        padding-bottom: 15px;
+        line-height: 1.85;
+        font-weight: 500;
+    }
+
+    .about-content h2 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .btn-linkedin {
+        text-decoration: none;
+        font-size: 18px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        padding: 9px;
+        background-color: rgb(99, 121, 189);
+        color: white;
+        box-shadow: 2px 2px 10px rgb(64, 80, 126);
+    }
+
+
+
+
+    /* WORK PAGES */
+
+
+
+    /* PROJECT 1 - ELDEN RING */
+
+
+    .project1-section1 {
+        font-family: 'Montserrat', sans-serif;
+        width: 400px;
+        margin: auto;
+    }
+
+    .project1-work-container {
+        background-color: white;
+    }
+
+    .project1-hero-title {
+        padding-top: 70px;
+    }
+
+    .project1-hero-title img {
+        width: 400px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #6c6c6c;
+    }
+
+    .project1-description {
+        margin-top: 30px;
+    }
+
+    .project1-description h2 {
+        font-size: 22px;
+        color:rgb(40, 40, 40);
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .project1-description p {
+        font-size: 18px;
+    }
+
+    .roles-list li {
+        font-size: 18px;
+        margin-left: 25px;
+        line-height: 1.5;
+    }
+
+    .challenges-list li {
+        font-size: 18px;
+        margin-left: 25px;
+        line-height: 1.5;
+    }
+
+    .work-progress-container1 {
+        font-family: 'Montserrat', sans-serif;
+        width: 400px;
+        margin: auto;
+    }
+
+    .work-progress-title h2 {
+        font-size: 22px;
+        color:rgb(29, 29, 29);
+        margin-top: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .work-progress-container1 h3 {
+        font-size: 22px;
+        color: rgb(28, 28, 28);
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .work-progress-title img {
+        width: 400px;
+        height: auto;
+    }
+
+    .player-journey img {
+        width: 400px;
+        height: auto;
+        display: block;
+        justify-content: center;
+    }
+
+    .prototype-img {
+        width: 400px;
+        height: auto;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    .flow-img {
+        width: 400px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .work-progress-container2 {
+        font-family: 'Montserrat', sans-serif;
+        width: 400px;
+        margin: auto;
+    }
+
+    .painpoint img {
+        width: 400px;
+        height: auto;
+    }
+
+    .equipment-section img {
+        width: 400px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+
+    .work-progress-container3 {
+        font-family: 'Montserrat', sans-serif;
+        width: 400px;
+        margin: auto;
+    }
+
+    .project1-section3 p {
+        margin: -20px 0px 30px 12px;
+        font-size: 14px;
+        color: rgb(243, 243, 243);
+    }
+
+    .painpoint h4 {
+        font-size: 22px;
+        color: rgb(243, 243, 243);
+        padding: 50px 0px 25px 0px;
+        margin-left: 10px;
+    }
+
+    .project1-section4 p {
+        margin: -20px 0px 30px 12px;
+        font-size: 14px;
+        color: black;
+    }
+
+    .gameplay-section img {
+        width: 400px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .outcomes-postMortem {
+        font-family: 'Montserrat', sans-serif;
+        width: 400px;
+        margin: auto;
+    }
+
+    .outcomes-postMortem h3 {
+        font-size: 22px;
+        color: black;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .outcomes-postMortem li {
+        font-size: 18px;
+        margin-left: 25px;
+        line-height: 1.5;
+    }
+
+    .UI-practice {
+        padding-bottom: 40px;
+    }
+
+
+
+
+
+
+
+
+
+    /* PROJECT 2 - PIRATE DASH */
+
+
+    .project2-section1 {
+        font-family: 'Montserrat', sans-serif;
+        width: 400px;
+        margin: auto;
+        background-color: white;
+    }
+
+    .project2-hero img {
+        width: 400px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #6c6c6c;
+    }
+
+    
+    .project2-description {
+        margin-top: 30px;
+    }
+
+    .project2-description h2 {
+        font-size: 22px;
+        color:rgb(40, 40, 40);
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .project2-description p {
+        font-size: 18px;
+    }
+
+    .project2-workprocess {
+        font-family: 'Montserrat', sans-serif;
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 75px;
+    }
+
+    .project2-main-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        gap: 0px;
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+
+    .project2-workprocess-title h2 {
+        padding-top: 40px;
+        font-size: 22px;
+    }
+
+    .project2-workprocess p {
+        margin-top: -60px;
+        margin-bottom: 60px;
+        font-size: 16px;
+    }
+
+    .main-menu-mockup {
+        margin-left: -18px;
+    }
+
+    .project2-main-menu-title h3 {
+        margin-top: 50px;
+        font-size: 20px;
+        margin-bottom: -40px;
+    }
+
+    .main-menu-wf img {
+        width: 250px;
+        height: auto;
+        margin-right: 18px;
+    }
+
+    .main-menu-mockup img {
+        width: 400px;
+        height: auto;
+        margin-top: -50px;
+    }
+
+
+    .project2-leaderboard-title h3 {
+        font-size: 22px;
+        margin-bottom: -40px;
+    }
+
+    .project2-leaderboard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+
+    .leaderboard-wf img {
+        width: 250px;
+        height: auto;
+        margin-right: 18px;
+    }
+
+    .leaderboard-mockup {
+        margin-left: -18px;
+    }
+
+    .leaderboard-mockup img {
+        width: 400px;
+        height: auto;
+        margin-top: -50px;
+    }
+
+    .project2-monetization {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+
+    .micro-transaction-wf img {
+        width: 250px;
+        height: auto;
+        margin-right: 18px;
+    }
+
+    .micro-transaction-mockup {
+        margin-left: -18px;
+    }
+
+    .micro-transaction-mockup img {
+        width: 400px;
+        height: auto;
+        margin-top: -50px;
+    }
+
+    .project2-final-mockup {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-left: 0px;
+        margin-right: 18px;
+        padding-bottom: 100px;
+    }
+
+    .project2-final-mockup img {
+        width: 400px;
+        height: auto;
+        margin-left: 0px;
+        margin-bottom: -120px;
+    }
+
+    .outcomes-postMortem {
+        font-family: 'Montserrat', sans-serif;
+        width: 400px;
+        margin: auto;
+    }
+
+    .outcomes-postMortem h3 {
+        font-size: 22px;
+        color: black;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .outcomes-postMortem li {
+        font-size: 18px;
+        margin-left: 25px;
+        line-height: 1.5;
+    }
+
+    .UI-practice {
+        padding-bottom: 40px;
+    }
+
+
+
+
+
+
+
+    /* PROJECT 3 - NINE 30 */
+
+    .project3-section1 {
+        font-family: 'Montserrat', sans-serif;
+        width: 400px;
+        margin: 0 auto;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+
+    .project3-hero img {
+        width: 400px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #6c6c6c;
+    }
+
+    .project3-description {
+        margin-top: 30px;
+    }
+
+    .project3-description h2 {
+        font-size: 22px;
+        color:rgb(40, 40, 40);
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .project3-description p {
+        font-size: 18px;
+    }
+
+    .roles-list li {
+        font-size: 18px;
+        margin-left: 25px;
+        line-height: 1.5;
+    }
+
+    .challenges-list li {
+        font-size: 18px;
+        margin-left: 25px;
+        line-height: 1.5;
+    }
+    
+    .project3-link-container {
+        font-family: 'Montserrat', sans-serif;
+        width: 400px;
+        margin: 0 auto;
+        background-color: white;
+        margin-bottom: 50px;
+    }
+
+    .project3-link-container h3 {
+        font-size: 22px;
+        color:rgb(40, 40, 40);
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .project3-link-container a {
+        text-decoration: none;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px 10px;
+        background-color: rgb(20, 98, 22);
+        color: white;
+    }
+
+
+
+
+
+
+
+    /* PROJECT 4 - BLACK OPS 6 */
+
+    .project4-section1 {
+        font-family: 'Montserrat', sans-serif;
+        width: 400px;
+        margin: 0 auto;
+        background-color: white;
+        margin-bottom: 50px;
+    }
+
+    .project4-hero-title {
+        margin-top: 75px;
+    }
+
+    .project4-hero img {
+        width: 400px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #6c6c6c;
+    }
+
+    .project4-description {
+        margin-top: 30px;
+    }
+
+    .project4-description h2 {
+        font-size: 22px;
+        color:rgb(40, 40, 40);
+        padding-bottom: 30px;
+        padding-top: 40px;
+    }
+
+    .project4-description p {
+        font-size: 18px;
+    }
+
+    .project4-workprocess {
+        font-family: 'Montserrat', sans-serif;
+        width: 400px;
+        margin: auto;
+    }
+
+    .project4-workprocess-title h2 {
+        font-size: 22px;
+        color:rgb(40, 40, 40);
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .painpoint-COD h2 {
+        font-size: 20px;
+        color:rgb(40, 40, 40);
+        padding-bottom: 30px;
+        padding-top: 30px;
+        margin-left: 0px;
+    }
+
+    .painpoint-COD img {
+        width: 400px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .project4-wireframe {
+        font-family: 'Montserrat', sans-serif;
+        width: 400px;
+        margin: auto;
+    }
+
+    .project4-wireframe h2 {
+        font-size: 20px;
+        color:rgb(40, 40, 40);
+        padding-bottom: 30px;
+        padding-top: 30px;
+        margin-left: 0px;
+    }
+
+    .project4-wireframe p {
+        padding-bottom: 25px;
+        font-size: 16px;
+        color: black;
+        margin-left: 0px;
+    }
+
+    .project4-wireframe img {
+        width: 400px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .project4-ui-mockup {
+        font-family: 'Montserrat', sans-serif;
+        width: 400px;
+        margin: auto;
+    }
+
+    .project4-ui-mockup h2 {
+        font-size: 22px;
+        color:rgb(40, 40, 40);
+        padding-bottom: 30px;
+        padding-top: 30px;
+        margin-left: 0px;
+    }
+
+    .project4-ui-mockup p {
+        padding-bottom: 25px;
+        font-size: 16px;
+        color: black;
+        margin-left: 0px;
+    }
+
+    .project4-ui-mockup img {
+        width: 400px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+
+
+
+
+
+    /* PROJECT 5 - YOSHI'S ISLAND */
+
+    .project5-section1 {
+        font-family: 'Montserrat', sans-serif;
+        width: 400px;
+        margin: auto;
+        background-color: white;
+    }
+
+    .project5-hero img {
+        width: 400px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #6c6c6c;
+    }
+
+    .project5-description {
+        margin-top: 30px;
+    }
+
+    .project5-description h2 {
+        font-size: 22px;
+        color:rgb(40, 40, 40);
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .project5-description p {
+        font-size: 18px;
+    }
+
+    .project5-workprocess {
+        font-family: 'Montserrat', sans-serif;
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 75px;
+    }
+
+    .project5-workprocess-title h2 {
+        padding-top: 40px;
+        font-size: 22px;
+    }
+
+    .project5-workprocess p {
+        margin-bottom: 60px;
+        padding-top: 20px;
+        font-size: 16px;
+    }
+
+    .project5-main-screen {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        gap: 40px;
+        margin-left: 0px;
+    }
+
+    .project5-main-screen-title h3 {
+        margin-top: 50px;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .project5-main-screen img {
+        width: 350px;
+        height: auto;
+    }
+
+    .project5-final-mockup img {
+        width: 350px;
+        height: auto;
+    }
+}

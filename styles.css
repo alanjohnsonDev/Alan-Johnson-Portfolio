@@ -22,6 +22,10 @@ html {
 
 /* NAVBAR SECTION */
 
+.mobile-container {
+    display: none;
+}
+
 .navbar {
     width: 100%;
     background-color: black;

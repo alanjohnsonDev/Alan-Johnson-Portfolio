@@ -1,0 +1,402 @@
+@media only screen and (min-width: 1280px) and (max-width: 1919px) {
+    /* NAVBAR */
+
+    .mobile-container {
+        display: none;
+    }
+    
+    .navbar {
+        width: 100%;
+        background-color: black;
+        height: 62px;
+        display: flex;
+        flex: row;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+
+    /* HERO HOME PAGE */
+
+    .hero-home-page-title {
+        height: 250px;
+        padding-top: 30px;
+        max-width: 950px;
+        margin: auto;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    /* MY WORK */
+
+    .work-container {
+        max-width: 950px;
+        margin: auto;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 60px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        padding-bottom: 100px;
+    }
+
+    .work-container img {
+        width: 450px;
+        height: 280px;
+        border-radius: 10px;
+        box-shadow: 2px 3px 10px rgb(10, 53, 86);
+    }
+
+
+    /* ABOUT Page */
+
+    .navbar-about {
+        width: 100%;
+        background-color: black;
+        height: 62px;
+        display: flex;
+        flex: row;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .about-container {
+        max-width: 950px;
+        margin: auto;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 30px;
+    }
+
+    .about-title h2 {
+        font-size: 35px;
+        padding-bottom: 35px;
+    }
+
+    .about-container p {
+        font-size: 18px;
+        padding-bottom: 15px;
+        line-height: 1.75;
+        font-weight: 500;
+    }
+
+
+    /* WORK PAGES */
+
+
+
+    /* PROJECT 1 - ELDEN RING */
+
+
+    .project1-section1 {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: auto;
+    }
+
+    .project1-work-container {
+        background-color: white;
+    }
+
+    .project1-hero-title {
+        padding-top: 70px;
+    }
+
+    .project1-hero-title img {
+        width: 950px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #6c6c6c;
+    }
+
+    .work-progress-container1 {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: auto;
+    }
+
+    .work-progress-title h2 {
+        font-size: 30px;
+        color:rgb(29, 29, 29);
+        margin-top: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .work-progress-title img {
+        width: 950px;
+        height: auto;
+    }
+
+    .player-journey img {
+        width: 950px;
+        height: auto;
+        display: block;
+        justify-content: center;
+    }
+
+    .flow-img {
+        width: 950px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .work-progress-container2 {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: auto;
+    }
+
+    .painpoint img {
+        width: 950px;
+        height: auto;
+    }
+
+    .equipment-section img {
+        width: 950px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+
+    .work-progress-container3 {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: auto;
+    }
+
+    .gameplay-section img {
+        width: 950px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .outcomes-postMortem {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: auto;
+    }
+
+
+
+
+
+    /* PROJECT 2 - PIRATE DASH */
+
+    .project2-section1 {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: auto;
+        background-color: white;
+    }
+
+    .project2-hero img {
+        width: 950px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #6c6c6c;
+    }
+
+    .project2-workprocess {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: 0 auto;
+        margin-top: 75px;
+    }
+
+    .project2-main-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        gap: 40px;
+        margin-left: 100px;
+    }
+
+    .project2-leaderboard {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin-left: 100px;
+    }
+
+    .project2-monetization {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin-left: 100px;
+    }
+
+    .project2-final-mockup {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 170px;
+    }
+
+    .project2-final-mockup img {
+        width: 470px;
+        height: 770px;
+        margin-left: -170px;
+    }
+
+    .project2-outcomes-postMortem {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: auto;
+        margin-top: 75px;
+    }
+
+
+
+
+    /* PROJECT 3 - NINE 30 */
+
+    .project3-section1 {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: 0 auto;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+
+    .project3-hero img {
+        width: 950px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #6c6c6c;
+    }
+
+    .project3-link-container {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: 0 auto;
+        background-color: white;
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+
+
+    /* PROJECT 4 - BLACK OPS 6 */
+
+    .project4-section1 {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: 0 auto;
+        background-color: white;
+        margin-bottom: 50px;
+    }
+
+    .project4-hero-title {
+        margin-top: 75px;
+    }
+
+    .project4-hero img {
+        width: 950px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #6c6c6c;
+    }
+
+    .project4-workprocess {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: auto;
+    }
+
+    .painpoint-COD img {
+        width: 950px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .project4-wireframe {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: auto;
+    }
+
+    .project4-wireframe img {
+        width: 950px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .project4-ui-mockup {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: auto;
+    }
+
+    .project4-ui-mockup img {
+        width: 950px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+
+
+
+
+
+    /* PROJECT 5 - YOSHI'S ISLAND */
+
+    .project5-section1 {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: auto;
+        background-color: white;
+    }
+
+    .project5-hero img {
+        width: 950px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #6c6c6c;
+    }
+
+    .project5-workprocess {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: 0 auto;
+        margin-top: 75px;
+    }
+
+    .project5-main-screen {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        gap: 40px;
+        margin-left: 0px;
+    }
+
+    .project5-main-screen img {
+        width: 320px;
+        height: 680px;
+    }
+
+    .project5-final-mockup img {
+        width: 320px;
+        height: 680px;
+    }
+}
