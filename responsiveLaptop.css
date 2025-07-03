@@ -399,4 +399,106 @@
         width: 320px;
         height: 680px;
     }
+
+
+
+
+
+    /* PROJECT 6 - GALAXY X */
+
+
+    .project6-section1 {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: auto;
+    }
+
+    .project6-work-container {
+        background-color: white;
+    }
+
+    .project6-hero-title {
+        padding-top: 70px;
+    }
+
+    .project6-hero-title img {
+        width: 950px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #6c6c6c;
+    }
+
+    .project6-section2 {
+        background-image: linear-gradient(rgb(255,255,255),rgb(249, 147, 23));
+        padding-bottom: 75px;
+        margin-top: 50px;
+    }
+
+    .project6-section2-container {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: auto;
+        padding-top: 75px;
+    }
+
+    .project6-video-title h3 {
+        font-size: 28px;
+    }
+
+    .project6-video-title p {
+        padding-top: 30px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .project6-video-unreal {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .project6-video-unreal video {
+        width: 950px;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 0px;
+    }
+
+
+
+    .project6-section3 {
+        background-image: linear-gradient(rgb(249, 147, 23),#eeeeee);
+        padding-bottom: 100px;
+    }
+
+    .project6-section3-container {
+        font-family: 'Montserrat', sans-serif;
+        width: 950px;
+        margin: auto;
+        padding-top: 40px;
+    }
+
+    .project6-section3-container h3 {
+        font-size: 28px;
+    }
+
+    .project6-section3-container h4 {
+        font-size: 24px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .project6-wireframe-image img {
+        width: 950px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .project6-ui-mockup-image img {
+        width: 950px;
+        height: auto;
+        border-radius: 10px;
+    }
 }

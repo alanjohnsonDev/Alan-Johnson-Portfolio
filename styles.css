@@ -1053,3 +1053,138 @@ html {
     margin: auto;
     margin-top: 75px;
 }
+
+
+
+
+
+
+
+
+
+/* Project 6 - GALAXY X */
+
+.project6-section1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 1350px;
+    margin: auto;
+}
+
+.project6-work-container {
+    background-color: white;
+}
+
+.project6-hero-title {
+    padding-top: 70px;
+}
+
+.project6-hero-title img {
+    width: 1250px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #6c6c6c;
+}
+
+.project6-description {
+    margin-top: 60px;
+}
+
+.project6-description h2 {
+    font-size: 30px;
+    color:rgb(40, 40, 40);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.project6-description p {
+    font-size: 22px;
+}
+
+.roles-list li {
+    font-size: 22px;
+    margin-left: 25px;
+    line-height: 1.5;
+}
+
+.challenges-list li {
+    font-size: 22px;
+    margin-left: 25px;
+    line-height: 1.5;
+}
+
+
+
+.project6-section2 {
+    background-image: linear-gradient(rgb(255,255,255),rgb(249, 147, 23));
+    padding-bottom: 75px;
+    margin-top: 50px;
+}
+
+.project6-section2-container {
+    font-family: 'Montserrat', sans-serif;
+    width: 1350px;
+    margin: auto;
+    padding-top: 75px;
+}
+
+.project6-video-title h3 {
+    font-size: 28px;
+}
+
+.project6-video-title p {
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.project6-video-unreal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.project6-video-unreal video {
+    width: 1278px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 70px;
+}
+
+
+
+.project6-section3 {
+    background-image: linear-gradient(rgb(249, 147, 23),#eeeeee);
+    padding-bottom: 100px;
+}
+
+.project6-section3-container {
+    font-family: 'Montserrat', sans-serif;
+    width: 1350px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.project6-section3-container h3 {
+    font-size: 28px;
+}
+
+.project6-section3-container h4 {
+    font-size: 24px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.project6-wireframe-image img {
+    width: 1278px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project6-ui-mockup-image img {
+    width: 1278px;
+    height: auto;
+    border-radius: 10px;
+}
+
