@@ -62,12 +62,12 @@
     }
 
     #home-icon {
-        padding-left: 78px;
+        padding-left: 30px;
     }
 
     .topnav a {
         color: white;
-        padding: 14px 16px 14px 78px;
+        padding: 14px 16px 14px 0px;
         text-decoration: none;
         font-size: 17px;
         display: block;
@@ -97,7 +97,7 @@
     /* HERO HOME PAGE */
 
     .hero-home-page-title {
-        height: 340px;
+        height: 390px;
         padding-top: 30px;
         max-width: 400px;
         margin: auto;
