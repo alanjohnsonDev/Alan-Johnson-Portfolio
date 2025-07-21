@@ -601,4 +601,100 @@
         height: auto;
         border-radius: 10px;
     }
+
+
+
+
+
+
+
+
+    /* PROJECT 7 - MAGIC CARD GAME */
+
+    .project7-section1 {
+        font-family: 'Montserrat', sans-serif;
+        width: 700px;
+        margin: 0 auto;
+        background-color: white;
+        margin-bottom: 50px;
+    }
+
+    .project7-hero-title {
+        margin-top: 40px;
+    }
+
+    .project7-hero img {
+        width: 700px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #6c6c6c;
+    }
+
+    .project7-workprocess-title h2 {
+        font-size: 28px;
+        color:rgb(40, 40, 40);
+        padding-bottom: 30px;
+        padding-top: 30px;
+        padding-left: 0px;
+        width: 700px;
+        margin: 0 auto;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .project7-wireframe {
+        font-family: 'Montserrat', sans-serif;
+        width: 700px;
+        margin: auto;
+    }
+
+    .project7-wireframe h2 {
+        font-size: 24px;
+        color:rgb(40, 40, 40);
+        padding-bottom: 30px;
+        padding-top: 30px;
+        margin-left: 15px;
+    }
+
+    .project7-wireframe img {
+        width: 700px;
+        height: auto;
+        padding-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .project7-wireframe p {
+        padding-bottom: 25px;
+        font-size: 16px;
+        color: black;
+        margin-left: 20px;
+    }
+
+    .project7-ui-mockup {
+        font-family: 'Montserrat', sans-serif;
+        width: 700px;
+        margin: auto;
+    }
+
+    .project7-ui-mockup h2 {
+        font-size: 26px;
+        color:rgb(40, 40, 40);
+        padding-bottom: 30px;
+        padding-top: 30px;
+        margin-left: 15px;
+    }
+
+    .project7-ui-mockup img {
+        width: 700px;
+        height: auto;
+        padding-bottom: 60px;
+        margin-left: 0px;
+    }
+
+    .project7-ui-mockup p {
+        padding-bottom: 25px;
+        font-size: 16px;
+        color: black;
+        margin-left: 20px;
+    }
 }

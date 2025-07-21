@@ -1188,3 +1188,120 @@ html {
     border-radius: 10px;
 }
 
+
+
+
+
+
+
+
+/* Project 7 - MAGIC CARD GAME */
+
+.project7-section1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 1250px;
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.project7-hero-title {
+    margin-top: 75px;
+}
+
+.project7-hero img {
+    width: 1250px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #6c6c6c;
+}
+
+.project7-description {
+    margin-top: 60px;
+}
+
+.project7-description h2 {
+    font-size: 30px;
+    color:rgb(40, 40, 40);
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.project7-description p {
+    font-size: 22px;
+}
+
+.project7-section2 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(126, 145, 197, 0.9));
+}
+
+.project7-workprocess-title h2 {
+    font-size: 30px;
+    color:rgb(40, 40, 40);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 1350px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.project7-section3 {
+    background-image: linear-gradient(rgba(126, 145, 197, 0.9), rgba(65, 114, 248, 0.734));
+}
+
+.project7-wireframe {
+    font-family: 'Montserrat', sans-serif;
+    width: 1350px;
+    margin: auto;
+}
+
+.project7-wireframe h2 {
+    font-size: 26px;
+    color:rgb(40, 40, 40);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-left: 15px;
+}
+
+.project7-wireframe img {
+    width: 1200px;
+    height: auto;
+    padding-bottom: 20px;
+    margin-left: 65px;
+}
+
+.project7-wireframe p {
+    padding-bottom: 25px;
+    font-size: 16px;
+    color: black;
+    margin-left: 20px;
+}
+
+.project7-ui-mockup {
+    font-family: 'Montserrat', sans-serif;
+    width: 1350px;
+    margin: auto;
+}
+
+.project7-ui-mockup h2 {
+    font-size: 26px;
+    color:rgb(40, 40, 40);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-left: 15px;
+}
+
+.project7-ui-mockup img {
+    width: 1200px;
+    height: auto;
+    padding-bottom: 60px;
+    margin-left: 65px;
+}
+
+.project7-ui-mockup p {
+    padding-bottom: 25px;
+    font-size: 16px;
+    color: black;
+    margin-left: 20px;
+}
